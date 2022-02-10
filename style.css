@@ -1,0 +1,33 @@
+body {
+  background: #410142;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 18px;
+}
+.container {
+  max-width: 1024px;
+}
+.recipe-header {
+  text-transform: uppercase;
+}
+.btn-add,
+.btn-unsub {
+  background: rgb(193, 0, 211);
+  color: #fff;
+  padding: 0.5rem 2rem;
+  transition: all 0.5 ease;
+}
+.btn-add:hover,
+.btn-unsub:hover {
+  background: #860088;
+  color: #fff;
+}
+.btn-danger {
+  background: #810020;
+  border: none;
+  padding: 0.5rem 1rem;
+  transition: all 0.5 ease;
+}
+.btn-danger:hover {
+  background: #ac012c;
+}
