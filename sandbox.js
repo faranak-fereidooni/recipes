@@ -21,7 +21,6 @@
  const app = initializeApp(firebaseConfig);
  const db =getFirestore(app);
 
-// add recipe and show it on ul
 const list = document.querySelector('ul');
 const form = document.querySelector('form');
 const button = document.querySelector('button');
